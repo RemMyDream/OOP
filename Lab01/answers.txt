@@ -1,0 +1,38 @@
+1. Problem 2.2.5 (P225.java)
+java.util.Scanner allows users to input the data
+sc.nextLine(): Input the data as String
+We use Double.parseDouble(): Convert String to double data type
+In conditional command:
++ if num2 == 0, print "ERROR"
++ else calculate the answer of this calculation
+
+2. Problem 2.2.6 (P226.java)
+In this problem, we use queries that when user type String, the console return the solution:
+For example, if users type First-degree equation with one variable (fde1) and input the coeffiecients of the equation, the console will print the solution of fde1.
+In this code, we use 3 method fde1, fde2, sde to solve each problem respectively and consider all possibility of the value of the coeffiecients
+
+3. Problem 6.1 (ChoosingOption.java)
+- What happens if users choose “Cancel”? -> System will print "You've chosen: No" because in the coditional command if the users don't choose Yes, it will return No
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t”:
+-> Use JOptionPane.showOptionDialog instead of JOptionPane.showConfirmDialog and change the Options value to new Object[]{"I do", "I dont"}
+
+4. InputFromKeyboard.java
+
+5. Problem 6.3 (P63.java)
+First, the user input the number of rows
+for each line i (0 < i < n), the console will print " " (n-i-1) times and print (*) (2*i+1) times
+
+6. Calculate Day (Day.java)
+We need to input the value of year and month by Scanner and while to ensure that the format of input is valid
+The converMonth method will ensure that the month has a valid format: 
+- if format of input is digit, it will check if the value is in range [1,12]
+- if the user input String, it will check whether that String is in String [] monthNames and equal abbreviation or shortname
+Final
+According to the given table, we can print the number of days
+
+7. Problem 6.4 (Array.java)
+We use BubbleSort to sort the Array
+
+8. Problem 6.6 (AddMatrices.java)
+Basically, we use loop for inputing and adding the element of two arrays
+
