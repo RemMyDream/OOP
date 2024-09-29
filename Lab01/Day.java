@@ -1,4 +1,4 @@
-package OOP.Lab01;
+package Lab01;
 
 import java.util.Scanner;
 public class Day1 {
