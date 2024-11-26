@@ -1,4 +1,4 @@
-package hust.soict.dsai.garbage;
+package OOP.OtherProjects.src.hust.soict.dsai.garbage;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
