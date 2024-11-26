@@ -1,4 +1,4 @@
-package hust.soict.dsai.garbage;
+package OOP.OtherProjects.src.hust.soict.dsai.garbage;
 import java.util.Random;
 
 public class ConcatenationInLoops {
