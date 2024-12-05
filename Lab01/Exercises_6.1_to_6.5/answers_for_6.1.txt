@@ -1,0 +1,4 @@
+1,  If user choose "Cancel", the result is the same as when user choose "No" because in here the short if-else clause is used to show "Yes" when user choose "Yes" else the result will be "No".
+
+2,  If the options parameter is not provided, the dialog will display a default set of buttons labeled "Yes", "No", and "Cancel". So we just need to use "YES_NO_OPTION" parameter in showConfirmDialog.
+	But if we want to change the label of the option, I think we should use showOptionDialog instead of showConfirmDialog since showConfirmDialog does not seem to have that function.
